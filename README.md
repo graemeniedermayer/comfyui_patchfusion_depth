@@ -18,9 +18,11 @@ This should be simplified shortly
 
 # Acknowledgement
 This uses this paper/code
+```
 @article{li2023patchfusion,
     title={PatchFusion: An End-to-End Tile-Based Framework for High-Resolution Monocular Metric Depth Estimation}, 
     author={Zhenyu Li and Shariq Farooq Bhat and Peter Wonka},
     booktitle={CVPR},
     year={2024}
 }
+```

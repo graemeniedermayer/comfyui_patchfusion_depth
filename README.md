@@ -1,7 +1,7 @@
 # Comfyui patchfusion depth
 [WIP] Quick comfyui wrapper for patchfusion depth.
 
-# Installation 
+## Installation 
 This should be simplified shortly
 1. git clone this repo into the `custom_nodes` of comfyui
 2. move all files from comfyui into `custom_nodes` (installation script expects to be run from here)
@@ -9,14 +9,14 @@ This should be simplified shortly
 4. run installion `startup_script.sh` (or you can run each line)
 5. remove `dpt.py`, `pip_yaml.py`, `startup_script.sh` from `custom_nodes` (might cause conflicts)
 
-# Usage
+## Usage
 1. restarting comfyui should add a patchfusion node
 2. you may want to add resize nodes before or after.
 
-# Notes
+## Notes
 -This repo does save some images into a temp folder
 
-# Acknowledgement
+## Acknowledgement
 This uses this paper/code
 ```
 @article{li2023patchfusion,

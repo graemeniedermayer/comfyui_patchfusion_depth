@@ -6,7 +6,6 @@ from PIL import Image
 import sys
 import pathlib
 import os
-z
 import os.path as osp
 import torch
 import time

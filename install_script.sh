@@ -6,9 +6,9 @@ cd ../models
 git clone https://github.com/zhyever/PatchFusion.git
 # yml install from environment
 cd PatchFusion
-python ../../custom_node/pip_yaml.py
+python ../../custom_nodes/pip_yaml.py
 rm external/depth_anything/dpt.py
-mv ../../custom_node/dpt.py external/depth_anything/dpt.py
+mv ../../custom_nodes/dpt.py external/depth_anything/dpt.py
 pip install scikit-image
-cd ../../custom_node
+cd ../../custom_nodes
 
